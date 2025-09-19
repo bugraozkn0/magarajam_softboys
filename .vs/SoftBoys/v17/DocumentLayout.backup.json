@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\UnityProjects\\SoftBoys\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|c:\\unityprojects\\softboys\\assets\\todo.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\todo.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|c:\\unityprojects\\softboys\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\scripts\\springjointhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\springjointhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\HingeJointHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\HingeJointHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TODO.txt",
+              "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\TODO.txt",
+              "RelativeDocumentMoniker": "Assets\\TODO.txt",
+              "ToolTip": "C:\\UnityProjects\\SoftBoys\\Assets\\TODO.txt",
+              "RelativeToolTip": "Assets\\TODO.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-19T07:41:28.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAxwCoAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T07:25:24.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpringJointHandler.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\SpringJointHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpringJointHandler.cs",
+              "ToolTip": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\SpringJointHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpringJointHandler.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T07:04:45.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HingeJointHandler.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\HingeJointHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HingeJointHandler.cs",
+              "ToolTip": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\HingeJointHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HingeJointHandler.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T19:48:41.746Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
