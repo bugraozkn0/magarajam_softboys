@@ -12,6 +12,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField, Range(3,10)] float maxVelocity = 10;
 
     [Space(25)]
+
+    [SerializeField] float moveMultiplier = 2;
+    [SerializeField] float jumpMultiplier = 2;
+
+    [Space(25)]
     [SerializeField] LayerMask groundLayer;
     [SerializeField] float groundCheckRadius = 0.1f;
     [SerializeField] float groundCheckOffset = 1;
@@ -41,6 +46,11 @@ public class PlayerMovement : MonoBehaviour
         baseRb.AddForce(inputVector * moveForce, ForceMode2D.Force);
     }
     private bool IsGrounded() => Physics2D.OverlapCircle(baseRb.transform.position + Vector3.up * groundCheckOffset, groundCheckRadius, groundLayer);
+    public void UpgradeStats(int connectedBodyAmount)
+    {
+        moveForce = moveForce + connectedBodyAmount * moveMultiplier;
+        jumpForce = jumpForce + connectedBodyAmount * jumpMultiplier;
+    }
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;

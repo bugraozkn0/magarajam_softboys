@@ -1,4 +1,4 @@
-
+﻿
 
 
 
@@ -7,6 +7,8 @@ Movement **
 Jumping **
 
 Connecting 
+
+MOUSE ILE BAĞLAMA EKLE
 
 
 FACES
