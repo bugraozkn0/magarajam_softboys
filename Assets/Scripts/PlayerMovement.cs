@@ -11,6 +11,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField, Range(50,500)] float jumpForce = 10;
     [SerializeField, Range(3,10)] float maxVelocity = 10;
 
+    [SerializeField] Vector2 moveForceClamp = new Vector2(3, 15);
+    [SerializeField] Vector2 jumpForceClamp = new Vector2(50, 500);
+
     [Space(25)]
 
     [SerializeField] float moveMultiplier = 2;
@@ -22,6 +25,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float groundCheckOffset = 1;
 
     private bool isJumping = false;
+    private ConnectionManager cm;
+    private void Awake()
+    {
+        cm = GetComponent<ConnectionManager>();
+        //cm.OnConnectionCountChanged += UpgradeStats;
+    }
 
     private void Update()
     {
@@ -46,10 +55,10 @@ public class PlayerMovement : MonoBehaviour
         baseRb.AddForce(inputVector * moveForce, ForceMode2D.Force);
     }
     private bool IsGrounded() => Physics2D.OverlapCircle(baseRb.transform.position + Vector3.up * groundCheckOffset, groundCheckRadius, groundLayer);
-    public void UpgradeStats(int connectedBodyAmount)
+    private void UpgradeStats(int connectedBodyAmount)
     {
-        moveForce = moveForce + connectedBodyAmount * moveMultiplier;
-        jumpForce = jumpForce + connectedBodyAmount * jumpMultiplier;
+        moveForce =  Mathf.Clamp(moveForce * connectedBodyAmount * moveMultiplier, moveForceClamp.x, moveForceClamp.y);
+        jumpForce = Mathf.Clamp(jumpForce * connectedBodyAmount * jumpMultiplier, jumpForceClamp.x, jumpForceClamp.y);
     }
     private void OnDrawGizmos()
     {
