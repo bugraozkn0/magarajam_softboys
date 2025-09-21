@@ -36,7 +36,10 @@ public class PlayerMovement : MonoBehaviour
     {
         HandleMovement();
     }
-
+    public void DieAnimation()
+    {
+        baseRb.AddForce(Vector2.up * 70, ForceMode2D.Impulse);
+    }
     private void HandleMovement()
     {
         Vector2 inputVector = Vector2.zero;

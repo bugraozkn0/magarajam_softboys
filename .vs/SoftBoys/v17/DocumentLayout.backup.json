@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\UnityProjects\\SoftBoys\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\scripts\\healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\todo.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\todo.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|c:\\unityprojects\\softboys\\assets\\scripts\\healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\newsystem\\connectionsocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|c:\\unityprojects\\softboys\\assets\\scripts\\newsystem\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\scripts\\newsystem\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\newsystem\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\scripts\\damagesource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\damagesource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\todo.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\todo.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\scripts\\facehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DamageSource.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\DamageSource.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DamageSource.cs",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "NotifyCollision.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\NotifyCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NotifyCollision.cs",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HealthManager.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\HealthManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthManager.cs",
@@ -83,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ConnectionSocket.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\NewSystem\\ConnectionSocket.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NewSystem\\ConnectionSocket.cs",
@@ -91,12 +91,11 @@
               "RelativeToolTip": "Assets\\Scripts\\NewSystem\\ConnectionSocket.cs",
               "ViewState": "AgIAAHIAAAAAAAAAAAAAwI8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T19:48:40.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T19:48:40.385Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ConnectionManager.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\NewSystem\\ConnectionManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NewSystem\\ConnectionManager.cs",
@@ -104,8 +103,7 @@
               "RelativeToolTip": "Assets\\Scripts\\NewSystem\\ConnectionManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T19:53:18.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T19:53:18.02Z"
             },
             {
               "$type": "Document",
@@ -133,15 +131,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "TODO.txt",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\TODO.txt",
               "RelativeDocumentMoniker": "Assets\\TODO.txt",
               "ToolTip": "C:\\UnityProjects\\SoftBoys\\Assets\\TODO.txt",
               "RelativeToolTip": "Assets\\TODO.txt",
-              "ViewState": "AgIAABYAAAAAAAAAAABBwCwAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-09-19T07:41:28.21Z"
+              "WhenOpened": "2025-09-19T07:41:28.21Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -133,6 +133,8 @@ public class HealthManager : MonoBehaviour
             StopCoroutine(damageCoroutine);
             damageCoroutine = null;
         }
+
+        StartCoroutine(DelayedDestroy(4f)); // 2 saniye sonra yok et
     }
 
     public void RestoreHealth(float amount)
@@ -140,11 +142,9 @@ public class HealthManager : MonoBehaviour
         currentHealth = Mathf.Min(maxHealth, currentHealth + amount);
         UpdateSprite();
     }
-
-    // Debug için
-    void OnGUI()
+    IEnumerator DelayedDestroy(float delay)
     {
-        GUI.Label(new Rect(10, 10, 200, 20), $"Health: {currentHealth:F1}/{maxHealth}");
-        GUI.Label(new Rect(10, 30, 200, 20), $"Dangerous Colliders: {dangerousColliders.Count}");
+        yield return new WaitForSeconds(delay);
+        Destroy(gameObject);
     }
 }

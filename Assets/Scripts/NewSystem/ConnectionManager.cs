@@ -50,6 +50,8 @@ public class ConnectionManager : MonoBehaviour, ITickable
         foreach(var c in boneColliders)
             c.enabled = false;
 
+        playerMovement.DieAnimation();
+
         playerMovement.enabled = false; // OPSIYONEL
         this.enabled = false; // OPSIYONEL
     }

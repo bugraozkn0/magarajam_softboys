@@ -2424,15 +2424,15 @@ MonoBehaviour:
   currentHealth: 100
   spriteRenderer: {fileID: 7054086090960459098}
   healthSprites:
-  - {fileID: 21300000, guid: 6ef8a83c1a9f84d40b0985f3efc813a6, type: 3}
-  - {fileID: 21300000, guid: 6ef8a83c1a9f84d40b0985f3efc813a6, type: 3}
-  - {fileID: 21300000, guid: 6ef8a83c1a9f84d40b0985f3efc813a6, type: 3}
-  - {fileID: 21300000, guid: 6ef8a83c1a9f84d40b0985f3efc813a6, type: 3}
-  - {fileID: 21300000, guid: 6ef8a83c1a9f84d40b0985f3efc813a6, type: 3}
-  - {fileID: 21300000, guid: 6ef8a83c1a9f84d40b0985f3efc813a6, type: 3}
-  - {fileID: 21300000, guid: 6ef8a83c1a9f84d40b0985f3efc813a6, type: 3}
-  - {fileID: 21300000, guid: 6ef8a83c1a9f84d40b0985f3efc813a6, type: 3}
-  - {fileID: 21300000, guid: 6ef8a83c1a9f84d40b0985f3efc813a6, type: 3}
+  - {fileID: 21300000, guid: b6c489d8a5eec4c40bd4bcb14585afd5, type: 3}
+  - {fileID: 21300000, guid: 5d7bf94bdd5b0a944a50c4277e649df4, type: 3}
+  - {fileID: 21300000, guid: 3431243a044a17f4b9e63617ab1d5a39, type: 3}
+  - {fileID: 21300000, guid: b254bc7fa7022e1439088b4ab389271a, type: 3}
+  - {fileID: 21300000, guid: b8bb65f0b0240f940b6c1fd358b71a27, type: 3}
+  - {fileID: 21300000, guid: 03714248d7c59a0499792cad33a3f3cb, type: 3}
+  - {fileID: 21300000, guid: a0bd0f15e209f4f419604c4075267813, type: 3}
+  - {fileID: 21300000, guid: ffb242b827c24f74fafdffa5c959729c, type: 3}
+  - {fileID: 21300000, guid: 4c417ea150fa9714e8ff97e219f9354d, type: 3}
   - {fileID: 21300000, guid: 6ef8a83c1a9f84d40b0985f3efc813a6, type: 3}
 --- !u!1 &6914955458501039343
 GameObject:
