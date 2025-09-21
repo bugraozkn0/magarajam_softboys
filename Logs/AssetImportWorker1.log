@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.55f1 (c5f59906196d) revision 12973465'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 15654 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-09-21T08:38:24Z
+Date: 2025-09-21T16:11:41Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.55f1\Editor\Unity.exe
@@ -16,7 +16,7 @@ C:/UnityProjects/SoftBoys
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56023
+59891
 -job-worker-count
 5
 -background-job-worker-count
@@ -60,12 +60,12 @@ C:/UnityProjects/SoftBoys
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8444]  Target information:
+Player connection [32028]  Target information:
 
-Player connection [8444]  * "[IP] 10.49.1.208 [Port] 0 [Flags] 2 [Guid] 1021880185 [EditorId] 1021880185 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MI71F4O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [32028]  * "[IP] 192.168.244.54 [Port] 0 [Flags] 2 [Guid] 3835033804 [EditorId] 3835033804 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MI71F4O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8444] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8444] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [32028] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32028] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -77,7 +77,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.57 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.05 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.55f1 (c5f59906196d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/Resources/UnitySubsystems
@@ -93,45 +93,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.003491 seconds.
-- Loaded All Assemblies, in  0.304 seconds
+Registered in 0.003452 seconds.
+- Loaded All Assemblies, in  0.506 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.285 seconds
-Domain Reload Profiling: 587ms
-	BeginReloadAssembly (102ms)
+- Finished resetting the current domain, in  0.456 seconds
+Domain Reload Profiling: 961ms
+	BeginReloadAssembly (172ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (122ms)
-		LoadAssemblies (100ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (216ms)
+		LoadAssemblies (170ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (119ms)
-			TypeCache.Refresh (118ms)
-				TypeCache.ScanAssembly (108ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (185ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (285ms)
+	FinalizeReload (457ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (248ms)
+		SetupLoadedEditorAssemblies (394ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (127ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (195ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,11 +143,11 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.672 seconds
+- Loaded All Assemblies, in  0.853 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.41 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.23 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
@@ -156,853 +156,110 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.672 seconds
-Domain Reload Profiling: 1340ms
-	BeginReloadAssembly (147ms)
+- Finished resetting the current domain, in  0.706 seconds
+Domain Reload Profiling: 1556ms
+	BeginReloadAssembly (170ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (28ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (449ms)
-		LoadAssemblies (308ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (598ms)
+		LoadAssemblies (387ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (217ms)
-			TypeCache.Refresh (158ms)
-				TypeCache.ScanAssembly (146ms)
-			BuildScriptInfoCaches (46ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (672ms)
+		AnalyzeDomain (300ms)
+			TypeCache.Refresh (225ms)
+				TypeCache.ScanAssembly (208ms)
+			BuildScriptInfoCaches (57ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (707ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (551ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (332ms)
-			ProcessInitializeOnLoadMethodAttributes (102ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7100 unused Assets / (7.3 MB). Loaded Objects now: 7771.
-Memory consumption went from 148.8 MB to 141.6 MB.
-Total: 10.136600 ms (FindLiveObjects: 0.897100 ms CreateObjectMapping: 0.480000 ms MarkObjects: 4.498800 ms  DeleteObjects: 4.259300 ms)
-
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 2.79 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7122 unused Assets / (4.0 MB). Loaded Objects now: 7792.
-Memory consumption went from 150.3 MB to 146.3 MB.
-Total: 28.824200 ms (FindLiveObjects: 1.340300 ms CreateObjectMapping: 1.546300 ms MarkObjects: 20.427000 ms  DeleteObjects: 5.508200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 428717.193258 seconds.
-  path: Assets/IMPORTED/Assets/Readme.asset
-  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d1cae07396ff6aff554dfa48f05f90a') in 0.0097022 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7111 unused Assets / (8.3 MB). Loaded Objects now: 7784.
-Memory consumption went from 151.0 MB to 142.6 MB.
-Total: 13.060300 ms (FindLiveObjects: 1.196100 ms CreateObjectMapping: 0.858800 ms MarkObjects: 5.672100 ms  DeleteObjects: 5.331800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.583 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.641 seconds
-Domain Reload Profiling: 1226ms
-	BeginReloadAssembly (178ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (345ms)
-		LoadAssemblies (256ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (152ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (132ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (641ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (498ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (105ms)
-			ProcessInitializeOnLoadAttributes (332ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7122 unused Assets / (7.7 MB). Loaded Objects now: 7787.
-Memory consumption went from 154.3 MB to 146.7 MB.
-Total: 7.512000 ms (FindLiveObjects: 0.677800 ms CreateObjectMapping: 0.276400 ms MarkObjects: 3.596600 ms  DeleteObjects: 2.960400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 72.806733 seconds.
-  path: Assets/IMPORTED/Assets/Prefabs/Candle.prefab
-  artifactKey: Guid(a072e73ef04a6914085e13f4bf7b6286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Prefabs/Candle.prefab using Guid(a072e73ef04a6914085e13f4bf7b6286) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f200c2fbe09392a184b8db84e088db99') in 0.4488971 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/IMPORTED/Assets/Prefabs/Robot.prefab
-  artifactKey: Guid(f38276897bb16cb45925341c42cf7574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Prefabs/Robot.prefab using Guid(f38276897bb16cb45925341c42cf7574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93647df2a11803786ec2b5dd4f682aef') in 0.0152049 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/IMPORTED/Assets/Prefabs/Spike.prefab
-  artifactKey: Guid(ee04e64ba1497ab4aa29e49eb7e77c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Prefabs/Spike.prefab using Guid(ee04e64ba1497ab4aa29e49eb7e77c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80aced846a7f95a83c17dec2fea200ae') in 0.0144539 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/IMPORTED/Assets/Prefabs/FIre.prefab
-  artifactKey: Guid(461bef07ee0aeb7449a1d67ec455eee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Prefabs/FIre.prefab using Guid(461bef07ee0aeb7449a1d67ec455eee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1af077c5faa6156276c52d39b5351a5a') in 0.015754 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/IMPORTED/Assets/Prefabs/SugarDoor.prefab
-  artifactKey: Guid(475c45490e7f44446ad1fcdb8299fb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Prefabs/SugarDoor.prefab using Guid(475c45490e7f44446ad1fcdb8299fb05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3efcd3ba20eb600c1bae0f4f9e82391b') in 0.0135608 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/IMPORTED/Assets/Prefabs/ChocolateDoor.prefab
-  artifactKey: Guid(8862b84e04441a14b836f6bfbb27217d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Prefabs/ChocolateDoor.prefab using Guid(8862b84e04441a14b836f6bfbb27217d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8602bd795b52317c2c1d0cd8d4e399c') in 0.022362 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/IMPORTED/Assets/Prefabs/Chocolate.prefab
-  artifactKey: Guid(66d5f21e5606f024d8fbc502bcbfc7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Prefabs/Chocolate.prefab using Guid(66d5f21e5606f024d8fbc502bcbfc7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '049d51b42e3b94c6c7e2fe3369034957') in 0.0155313 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 57.338002 seconds.
-  path: Assets/IMPORTED/Assets/Settings/URP-Balanced-Renderer.asset
-  artifactKey: Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Settings/URP-Balanced-Renderer.asset using Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '740026f8419ca1a8ba488853f341a216') in 0.0035677 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/IMPORTED/Assets/Settings/URP-Performant-Renderer.asset
-  artifactKey: Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Settings/URP-Performant-Renderer.asset using Guid(707360a9c581a4bd7aa53bfeb1429f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f61ba9c66fbcc15487d7d5e2e0add9d') in 0.0012824 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Prepare
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.52 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7109 unused Assets / (8.6 MB). Loaded Objects now: 7920.
-Memory consumption went from 162.6 MB to 154.0 MB.
-Total: 14.732200 ms (FindLiveObjects: 0.852400 ms CreateObjectMapping: 0.656100 ms MarkObjects: 8.467300 ms  DeleteObjects: 4.754800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.610 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.654 seconds
-Domain Reload Profiling: 1265ms
-	BeginReloadAssembly (194ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (21ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (351ms)
-		LoadAssemblies (263ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (161ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (138ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (654ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (519ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (123ms)
-			ProcessInitializeOnLoadAttributes (336ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7120 unused Assets / (8.1 MB). Loaded Objects now: 7818.
-Memory consumption went from 161.7 MB to 153.6 MB.
-Total: 8.243900 ms (FindLiveObjects: 0.689100 ms CreateObjectMapping: 0.286400 ms MarkObjects: 3.878500 ms  DeleteObjects: 3.388400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.591 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.46 ms, found 4 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.583 seconds
-Domain Reload Profiling: 1173ms
-	BeginReloadAssembly (177ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (357ms)
-		LoadAssemblies (270ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (156ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (134ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (583ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (456ms)
+		SetupLoadedEditorAssemblies (583ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (299ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 1.68 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 47 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7154 unused Assets / (8.0 MB). Loaded Objects now: 7854.
-Memory consumption went from 161.8 MB to 153.8 MB.
-Total: 9.186800 ms (FindLiveObjects: 0.807400 ms CreateObjectMapping: 0.387700 ms MarkObjects: 4.312100 ms  DeleteObjects: 3.678600 ms)
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7289 unused Assets / (7.6 MB). Loaded Objects now: 7982.
+Memory consumption went from 155.1 MB to 147.5 MB.
+Total: 10.803800 ms (FindLiveObjects: 1.118200 ms CreateObjectMapping: 0.408800 ms MarkObjects: 4.834200 ms  DeleteObjects: 4.441200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 455855.142387 seconds.
+  path: Assets/Prefabs/DeadMinion.prefab
+  artifactKey: Guid(59982784a0d0a6e45b13043ed9192aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/DeadMinion.prefab using Guid(59982784a0d0a6e45b13043ed9192aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53bb2907205074683d6fda004199d84b') in 0.4649642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 171
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.675 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.859 seconds
+Domain Reload Profiling: 1534ms
+	BeginReloadAssembly (203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (409ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (167ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (859ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (699ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (168ms)
+			ProcessInitializeOnLoadAttributes (444ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7287 unused Assets / (6.9 MB). Loaded Objects now: 8020.
+Memory consumption went from 163.5 MB to 156.5 MB.
+Total: 15.436800 ms (FindLiveObjects: 1.249000 ms CreateObjectMapping: 1.030700 ms MarkObjects: 7.484100 ms  DeleteObjects: 5.671500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 76.965636 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_1.asset
-  artifactKey: Guid(0a0a8e93c0c489b45b7e8f3dfe7088ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_1.asset using Guid(0a0a8e93c0c489b45b7e8f3dfe7088ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b78f31d0595a06e8461333839bf468c6') in 0.0484089 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_3.asset
-  artifactKey: Guid(0950aa1d5713ec5439f0e040910b2156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_3.asset using Guid(0950aa1d5713ec5439f0e040910b2156) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6399f97449405204f55fbc86fc01c68d') in 0.0022016 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_2.asset
-  artifactKey: Guid(351365dd86241224b80b343f05e90b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_2.asset using Guid(351365dd86241224b80b343f05e90b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e25ad9344c40523dcb056c6d134fe8ef') in 0.0022849 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_29.asset
-  artifactKey: Guid(d68f4ff64edfeea41ad212140f3dafe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_29.asset using Guid(d68f4ff64edfeea41ad212140f3dafe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62b188ec6ead5615423504bd62dc0c3b') in 0.0022698 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_33.asset
-  artifactKey: Guid(d12a3fa0740743e4f8d26c381dc1f236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_33.asset using Guid(d12a3fa0740743e4f8d26c381dc1f236) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb84478ac1a3323582ab802b678a05e5') in 0.0021834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_4.asset
-  artifactKey: Guid(33701108fc66e0b4faeac4980ae032ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_4.asset using Guid(33701108fc66e0b4faeac4980ae032ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22ae52278078c321d5bcc3dc1277ba4c') in 0.0027236 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_26.asset
-  artifactKey: Guid(1fb419d1812483f46b9db77b01cae092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_26.asset using Guid(1fb419d1812483f46b9db77b01cae092) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '119be5322760b4de9e6fdcdb96871be2') in 0.002663 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_27.asset
-  artifactKey: Guid(8b29138ddcf5a57409540a881dc05a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_27.asset using Guid(8b29138ddcf5a57409540a881dc05a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6b80f04a861b5dd4b285e8c2f5e82dd') in 0.0021617 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_25.asset
-  artifactKey: Guid(b4f66349063825a4aae4acd261c5d983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_25.asset using Guid(b4f66349063825a4aae4acd261c5d983) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '565390417018e01ff943c96b67e0a8d5') in 0.0021433 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_5.asset
-  artifactKey: Guid(c51eee9d89beb7a459dec38a86705fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_5.asset using Guid(c51eee9d89beb7a459dec38a86705fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6ed9b957ff7bbb3e9b895231f7175a7') in 0.0021515 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_46.asset
-  artifactKey: Guid(820cd47d8d1c90b49a8d6dd3a1335dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_46.asset using Guid(820cd47d8d1c90b49a8d6dd3a1335dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6a5e55105e0b6c50d06f4a49b4a1626') in 0.0023405 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.522630 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_48.asset
-  artifactKey: Guid(27ee16a1aede9d24385e92bcba5f8c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_48.asset using Guid(27ee16a1aede9d24385e92bcba5f8c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0118eb713b993ac7d46e85932c7b0942') in 0.0026142 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_49.asset
-  artifactKey: Guid(c71fd7a5249283c4c8d3d3d73771849a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_49.asset using Guid(c71fd7a5249283c4c8d3d3d73771849a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5faddf257ecc4dd5ffc005ae5aca1369') in 0.0025786 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_51.asset
-  artifactKey: Guid(24d6d86352633e14891ffbc984e31423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_51.asset using Guid(24d6d86352633e14891ffbc984e31423) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b45575ff58e4c0a6384e48766a893287') in 0.0020275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_53.asset
-  artifactKey: Guid(7b5557288ee8f00498d1d72f46f76250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_53.asset using Guid(7b5557288ee8f00498d1d72f46f76250) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6704de150f729458830827ea43d259cf') in 0.0021793 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.473360 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_56.asset
-  artifactKey: Guid(ea8573892e97ea34d9c99c610b283ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_56.asset using Guid(ea8573892e97ea34d9c99c610b283ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1d329ecbd758c3761fd8a071f9c8f74') in 0.002339 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_70.asset
-  artifactKey: Guid(cbd42e67912b97744a054e8c6bb5cdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_70.asset using Guid(cbd42e67912b97744a054e8c6bb5cdb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f55f7d8d1c16450fde1ead70cc78eb5') in 0.0020726 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_92.asset
-  artifactKey: Guid(3a241d32bcf40224e96f283c1f12ba3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_92.asset using Guid(3a241d32bcf40224e96f283c1f12ba3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65b176647c186fe57fa1a534aff6e579') in 0.0022999 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_76.asset
-  artifactKey: Guid(7c0f4829bf8eac046b42142f2fe511d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_76.asset using Guid(7c0f4829bf8eac046b42142f2fe511d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6884f6f96a654d9691531be634125f3') in 0.0023577 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_73.asset
-  artifactKey: Guid(53e57d392e0613a4394847e8c02b41f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_73.asset using Guid(53e57d392e0613a4394847e8c02b41f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccb455a631ab03868079fbc88a3b6bb5') in 0.0021048 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_94.asset
-  artifactKey: Guid(7168e57c3ddfb8f45a1947667edfbf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_94.asset using Guid(7168e57c3ddfb8f45a1947667edfbf6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a810302d909608fcd3aea132f7255df') in 0.0019911 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_77.asset
-  artifactKey: Guid(47f9da369bfc1c64b93dfffdb9d3e2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_77.asset using Guid(47f9da369bfc1c64b93dfffdb9d3e2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c911d29a7bd713bf86ec9a7406b2a299') in 0.0029334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_79.asset
-  artifactKey: Guid(69a3b95dffa13cd4d863dd86e29e0a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_79.asset using Guid(69a3b95dffa13cd4d863dd86e29e0a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6a1181df427c804c76fade8d884cd72') in 0.0029099 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.096992 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_96.asset
-  artifactKey: Guid(abacad26c10e8664e9c0805dd23f0425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_96.asset using Guid(abacad26c10e8664e9c0805dd23f0425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fffeaf0a2dad0fb8ce0125d837bc827d') in 0.0023415 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_97.asset
-  artifactKey: Guid(da5e7158397a5d5419ea08f8783c760e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_97.asset using Guid(da5e7158397a5d5419ea08f8783c760e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c1ec57fbfec5c7399cbffbbe8759b33') in 0.0023688 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_101.asset
-  artifactKey: Guid(2a470a7cf0327f04491211e94c609c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_101.asset using Guid(2a470a7cf0327f04491211e94c609c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd5c2897c41d56cebdff8b3d21b6849e') in 0.0024368 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_122.asset
-  artifactKey: Guid(c0a92cd4e53cdb34e99dd28ecf9de52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_122.asset using Guid(c0a92cd4e53cdb34e99dd28ecf9de52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ccb7b514845f71d6d02c7e5bff0109b') in 0.0022873 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_140.asset
-  artifactKey: Guid(ee9f2bf6bb834fa4b9c5a2b54e6d623a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_140.asset using Guid(ee9f2bf6bb834fa4b9c5a2b54e6d623a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85d75ce18a2cee183557240807bf9da8') in 0.0019378 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_138.asset
-  artifactKey: Guid(2b0ba1df957f23044920ec8607787de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_138.asset using Guid(2b0ba1df957f23044920ec8607787de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffaf2c57b870634981c28d0e36bb5023') in 0.002349 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_141.asset
-  artifactKey: Guid(bc46c7b2ecbcdea42ac357f9c61f275e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_141.asset using Guid(bc46c7b2ecbcdea42ac357f9c61f275e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be862df6126d41fad7f912478751e91d') in 0.0022039 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_142.asset
-  artifactKey: Guid(b11e178ae0808f541971041895d4ef83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_142.asset using Guid(b11e178ae0808f541971041895d4ef83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '590581322720c20c5078122ff22751fc') in 0.0018658 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_117.asset
-  artifactKey: Guid(475904ffe6ef51a4c9998bbf15e2b76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_117.asset using Guid(475904ffe6ef51a4c9998bbf15e2b76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d7b09d35ae43e4aa6c19a0335e6e796') in 0.0019328 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_120.asset
-  artifactKey: Guid(0f6e0c1da52f33d4cb36545045d32b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_120.asset using Guid(0f6e0c1da52f33d4cb36545045d32b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '068fceae9f5de519bee61389f4ec8961') in 0.0026303 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_118.asset
-  artifactKey: Guid(8ac55647f7182f64984e855c4ceac7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_118.asset using Guid(8ac55647f7182f64984e855c4ceac7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38abe1bbbcb54dc815f1fa4c5e612cbb') in 0.0021742 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_119.asset
-  artifactKey: Guid(af36a6a84255e3047a4405a29aac20f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_119.asset using Guid(af36a6a84255e3047a4405a29aac20f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54d8f60780ab5f7d940cb46e60d7b1ed') in 0.0027639 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.933544 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_144.asset
-  artifactKey: Guid(ae1ef743e59c92c458f828321616c04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_144.asset using Guid(ae1ef743e59c92c458f828321616c04c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55b661130514a86b0436ebdd24e75d1f') in 0.0021003 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_160.asset
-  artifactKey: Guid(8c6c404cc45becb4c97ba324a5c3d983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_160.asset using Guid(8c6c404cc45becb4c97ba324a5c3d983) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce9518c231837005709ca3680932ebfa') in 0.0024492 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_175.asset
-  artifactKey: Guid(cf4efbdeb07ea244abe3dc6dd26459a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_175.asset using Guid(cf4efbdeb07ea244abe3dc6dd26459a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67acf43467000964c519d5e72a7a6070') in 0.0019548 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_163.asset
-  artifactKey: Guid(efb0638da36ef78439fa3c8ee60d5099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_163.asset using Guid(efb0638da36ef78439fa3c8ee60d5099) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1037931f363f4828a8df6755ea1f5de') in 0.0020881 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_162.asset
-  artifactKey: Guid(353335e9e6ce59d429d5f9a8ac60edff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_162.asset using Guid(353335e9e6ce59d429d5f9a8ac60edff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac96d2a12074a1e1f5a321f3dd3e7d4b') in 0.0023381 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.303347 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_182.asset
-  artifactKey: Guid(600bfe75851a0e4468781cad64ca2915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_182.asset using Guid(600bfe75851a0e4468781cad64ca2915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '920067176df9c88b810be85e063f5c63') in 0.0024178 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_286.asset
-  artifactKey: Guid(92f7fc7f32e1392488fc9a0072d0429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/0x72_16x16RobotTileset.v1_286.asset using Guid(92f7fc7f32e1392488fc9a0072d0429a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bab1a6f51f12056e31bf17dbe0a86a2') in 0.0029531 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/16-bit-spike-Sheet_0.asset
-  artifactKey: Guid(46080d20e64016d499cf070bacdd9a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/16-bit-spike-Sheet_0.asset using Guid(46080d20e64016d499cf070bacdd9a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2f64ed8ee7512f700996626b46bf8f9') in 0.0257971 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_bottom_right_outer.asset
-  artifactKey: Guid(2949cbcf64ca21b43a56817bd7cf7fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_bottom_right_outer.asset using Guid(2949cbcf64ca21b43a56817bd7cf7fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f058e60164d969b5c666a190829e425f') in 0.0140162 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_bottom_left_inner.asset
-  artifactKey: Guid(56aea6866f94df04ca7e5189dfd253e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_bottom_left_inner.asset using Guid(56aea6866f94df04ca7e5189dfd253e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd47083de484014f9445344431f9dca66') in 0.0135482 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_platform_left_end.asset
-  artifactKey: Guid(15c4b4ae9cbf0a846b88f9741a0d2478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_platform_left_end.asset using Guid(15c4b4ae9cbf0a846b88f9741a0d2478) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2d3c7f54d3f542503292fa8bbd70de0') in 0.0134191 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_bottom_left_outer.asset
-  artifactKey: Guid(0f3dcf09c11dd1d4dae390321e89f701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_bottom_left_outer.asset using Guid(0f3dcf09c11dd1d4dae390321e89f701) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8307bd3480860e48d30c79c538bdedb0') in 0.0132054 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/BackgrounSciFi.png
-  artifactKey: Guid(03181cc29b0b07746b2b7b982fb9e2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/BackgrounSciFi.png using Guid(03181cc29b0b07746b2b7b982fb9e2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47a28d5f241cb8bd53dbf2e5ae3b8141') in 0.0358411 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.364099 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_platform_right_end.asset
-  artifactKey: Guid(d4c1a6aecd0fbfc4ab4acbaf280c3b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_platform_right_end.asset using Guid(d4c1a6aecd0fbfc4ab4acbaf280c3b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79d3e81c67475e6d5d7abdcdc1812447') in 0.0130844 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_shallow_slope_end_right.asset
-  artifactKey: Guid(cd6bb03bc375a1d4396534ef683cc9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_shallow_slope_end_right.asset using Guid(cd6bb03bc375a1d4396534ef683cc9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce92971f5dbf54545e4ad6245b2d8c83') in 0.0120721 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_shallow_slope_end_left.asset
-  artifactKey: Guid(f4e0bc2a6298a534ea0afcd5efd35208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_shallow_slope_end_left.asset using Guid(f4e0bc2a6298a534ea0afcd5efd35208) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '481af075752a979acc302af3f815a680') in 0.0115722 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.210645 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_shallow_slope_start_left.asset
-  artifactKey: Guid(e3fb62a3c5ad66044b4dd20b43473c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_shallow_slope_start_left.asset using Guid(e3fb62a3c5ad66044b4dd20b43473c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fed008276150e643c03526885adb1de') in 0.0127266 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_steep_slope_end_left.asset
-  artifactKey: Guid(4890a46f38913e846a99caef59383c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_steep_slope_end_left.asset using Guid(4890a46f38913e846a99caef59383c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ede82d263d5d86fcc25bc03258d6744') in 0.0127923 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_steep_slope_end_right.asset
-  artifactKey: Guid(81cb929db81b2c44f8d131a434ad14ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_steep_slope_end_right.asset using Guid(81cb929db81b2c44f8d131a434ad14ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93dbe49641e7163e88426bfb9a8180bb') in 0.0126587 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.048529 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_top_left_inner.asset
-  artifactKey: Guid(bb7c48746c3045945a0e3cbbe96b16ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_top_left_inner.asset using Guid(bb7c48746c3045945a0e3cbbe96b16ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f4acee14fd6feddac551365292a631e') in 0.0129091 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_top_version_2.asset
-  artifactKey: Guid(ac98c92dd52c8f04bb66efac09c33d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_top_version_2.asset using Guid(ac98c92dd52c8f04bb66efac09c33d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e5f5c244ffe28b4ea413ed6a34ead5f') in 0.0129725 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_top_right_inner.asset
-  artifactKey: Guid(58f47c25c4696d64d8867ce203c53b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/chocolate_ice_cream_tile_top_right_inner.asset using Guid(58f47c25c4696d64d8867ce203c53b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c45a42d9184fb3ce885cf48a1b8b74b') in 0.0133753 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 110.071374 seconds.
-  path: Assets/Prefabs/Minion.prefab
-  artifactKey: Guid(6cb9e815adf5f924bbca8cbbabb1bb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Minion.prefab using Guid(6cb9e815adf5f924bbca8cbbabb1bb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb3059f15d9c9afefeb419d6b05dbf20') in 0.3486221 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 176
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.395146 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/fill.asset
-  artifactKey: Guid(6601792fdb53b1042802e5c56f7685d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/fill.asset using Guid(6601792fdb53b1042802e5c56f7685d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c31ae9907cf20634636676d2a4dc023') in 0.0167452 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/RobotFaces 1.png
-  artifactKey: Guid(01caf5af36e2edf40bb96fb1ae4f3022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/RobotFaces 1.png using Guid(01caf5af36e2edf40bb96fb1ae4f3022) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db8be0b2e9ce70d309943062f037d10d') in 0.0304739 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/Robot.png
-  artifactKey: Guid(af4966c423d061940844e70579b3b80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/Robot.png using Guid(af4966c423d061940844e70579b3b80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6838e8c9fac051d13f606c05a007253c') in 0.0162315 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.941899 seconds.
-  path: Assets/IMPORTED/Assets/Sprites/Spike.prefab
-  artifactKey: Guid(5d37229147579db408b8c9a4421498b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/IMPORTED/Assets/Sprites/Spike.prefab using Guid(5d37229147579db408b8c9a4421498b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef8d1a888379d567480d6dd1866017b3') in 0.0166851 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

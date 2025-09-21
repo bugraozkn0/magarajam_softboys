@@ -18,6 +18,10 @@ public class SpecialNotifyCollision : MonoBehaviour
             int f = other.GetComponent<CustomLaunchPad>().GetForceAmount();
             pm.AddJumpForce(f);
         }
+        if(other.CompareTag("SCENE_TRIGGER"))
+        {
+            SceneManagementHandle.instance.NextScene();
+        }
     }
 
     void OnTriggerExit2D(Collider2D other)

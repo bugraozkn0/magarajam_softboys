@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\UnityProjects\\SoftBoys\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\scripts\\scenemanagementhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenemanagementhandle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\todo.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\todo.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|c:\\unityprojects\\softboys\\assets\\scripts\\customlaunchpad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\customlaunchpad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\scripts\\healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\scripts\\specialnotifycollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\scripts\\newsystem\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\newsystem\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\scripts\\newsystem\\connectionsocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\newsystem\\connectionsocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|c:\\unityprojects\\softboys\\assets\\scripts\\specialnotifycollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\specialnotifycollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|c:\\unityprojects\\softboys\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\scripts\\customlaunchpad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\customlaunchpad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\scripts\\interactable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,18 +59,6 @@
       "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\damagesource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\scripts\\newsystem\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\newsystem\\connectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\scripts\\healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\healthmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\scripts\\newsystem\\connectionsocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\newsystem\\connectionsocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|C:\\UnityProjects\\SoftBoys\\assets\\scripts\\customcursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B806BA4B-E3FC-26A1-D83C-1AB2C271C71C}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\customcursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -70,11 +74,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "SceneManagementHandle.cs",
+              "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\SceneManagementHandle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneManagementHandle.cs",
+              "ToolTip": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\SceneManagementHandle.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneManagementHandle.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCAAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T13:55:04.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "CustomLaunchPad.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\CustomLaunchPad.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CustomLaunchPad.cs",
@@ -82,12 +99,11 @@
               "RelativeToolTip": "Assets\\Scripts\\CustomLaunchPad.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T12:35:07.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T12:35:07.207Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "CustomCursor.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\CustomCursor.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CustomCursor.cs",
@@ -99,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "DamageSource.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\DamageSource.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DamageSource.cs",
@@ -111,19 +127,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "HealthManager.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\HealthManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HealthManager.cs",
               "ToolTip": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\HealthManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\HealthManager.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAcwJEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAIwHoAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T06:37:01.698Z"
+              "WhenOpened": "2025-09-21T06:37:01.698Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "ConnectionSocket.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\NewSystem\\ConnectionSocket.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NewSystem\\ConnectionSocket.cs",
@@ -131,11 +148,12 @@
               "RelativeToolTip": "Assets\\Scripts\\NewSystem\\ConnectionSocket.cs",
               "ViewState": "AgIAAFYAAAAAAAAAAAAkwGoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T19:48:40.385Z"
+              "WhenOpened": "2025-09-19T19:48:40.385Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "ConnectionManager.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\NewSystem\\ConnectionManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NewSystem\\ConnectionManager.cs",
@@ -143,24 +161,25 @@
               "RelativeToolTip": "Assets\\Scripts\\NewSystem\\ConnectionManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T19:53:18.02Z"
+              "WhenOpened": "2025-09-19T19:53:18.02Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "SpecialNotifyCollision.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\SpecialNotifyCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpecialNotifyCollision.cs",
               "ToolTip": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\SpecialNotifyCollision.cs",
               "RelativeToolTip": "Assets\\Scripts\\SpecialNotifyCollision.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowBYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-21T11:44:15.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Door.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\IMPORTED\\Assets\\Scripts\\Door.cs",
               "RelativeDocumentMoniker": "Assets\\IMPORTED\\Assets\\Scripts\\Door.cs",
@@ -172,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "FaceHandler.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\FaceHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FaceHandler.cs",
@@ -184,20 +203,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TODO.txt",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\TODO.txt",
               "RelativeDocumentMoniker": "Assets\\TODO.txt",
               "ToolTip": "C:\\UnityProjects\\SoftBoys\\Assets\\TODO.txt",
               "RelativeToolTip": "Assets\\TODO.txt",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-09-19T07:41:28.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
@@ -205,12 +224,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAArwCIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T07:25:24.123Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T07:25:24.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Interactable.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\Interactable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interactable.cs",
@@ -218,12 +236,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Interactable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T10:50:46.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-21T10:50:46.051Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "AnimationPlayerHandler.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\AnimationPlayerHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AnimationPlayerHandler.cs",
@@ -235,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "MoveHandler.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\MoveHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MoveHandler.cs",
@@ -247,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "NotifyCollision.cs",
               "DocumentMoniker": "C:\\UnityProjects\\SoftBoys\\Assets\\Scripts\\NotifyCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NotifyCollision.cs",

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthManager : MonoBehaviour
 {
@@ -119,6 +120,7 @@ public class HealthManager : MonoBehaviour
         if(cm.isMainPlayer)
         {
             // HARBI OLDUK AMK
+            SceneManagementHandle.instance.ChangeScene((SceneType)SceneManager.GetActiveScene().buildIndex, 2f);
         }
         else
         {

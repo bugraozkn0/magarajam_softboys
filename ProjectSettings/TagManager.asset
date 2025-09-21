@@ -7,6 +7,7 @@ TagManager:
   - Danger
   - Interactable
   - Launchpad
+  - SCENE_TRIGGER
   layers:
   - Default
   - TransparentFX
