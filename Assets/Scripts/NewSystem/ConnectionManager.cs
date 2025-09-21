@@ -19,7 +19,7 @@ public class ConnectionManager : MonoBehaviour, ITickable
     public PlayerMovement playerMovement;
     public FaceHandler faceHandler;
 
-    private HashSet<ConnectionManager> connectedBodies = new();
+    public HashSet<ConnectionManager> connectedBodies = new();
 
     private void Awake()
     {
@@ -35,6 +35,23 @@ public class ConnectionManager : MonoBehaviour, ITickable
     {
         if (enableForceBreak)
             CheckJointForces();
+    }
+    public void DisconnectFromEverything()
+    {
+        foreach (var socket in sockets)
+        {
+            if (socket.IsConnected)
+            {
+                socket.Disconnect();
+            }
+            socket.isDead = true;
+            socket.enabled = false;
+        }
+        foreach(var c in boneColliders)
+            c.enabled = false;
+
+        playerMovement.enabled = false; // OPSIYONEL
+        this.enabled = false; // OPSIYONEL
     }
 
     private void CheckJointForces()
@@ -117,7 +134,7 @@ public class ConnectionManager : MonoBehaviour, ITickable
         {
             playerMovement.enabled = true;
             faceHandler.ChangeFace(FaceType.Happy);
-        }
+        }   
     }
 
     public bool IsConnectedToMainPlayer()

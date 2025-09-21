@@ -20,8 +20,11 @@ public class ConnectionSocket : MonoBehaviour
     public ConnectionSocket ConnectedTargetSocket => connectedTargetSocket;
     public FixedJoint2D Joint { get; private set; }
 
+    public bool isDead = false;
+
     public void Initialize(ConnectionManager cm)
     {
+        if (isDead) return;
         manager = cm;
         Joint = GetComponent<FixedJoint2D>();
         if (Joint != null)
@@ -33,6 +36,7 @@ public class ConnectionSocket : MonoBehaviour
 
     public void Connect(ConnectionSocket targetSocket)
     {
+        if (isDead) return;
         if (targetSocket == null || targetSocket.IsConnected) return;
 
         connectedTargetSocket = targetSocket;
@@ -64,6 +68,7 @@ public class ConnectionSocket : MonoBehaviour
 
     public void Disconnect()
     {
+        if (isDead) return;
         if (connectedTargetSocket == null) return;
 
         if (Joint != null)
@@ -95,6 +100,7 @@ public class ConnectionSocket : MonoBehaviour
 
     public void HandleMouseDown()
     {
+        if (isDead) return;
         if (IsConnected)
         {
             Debug.Log($"[HandleMouseDown] {name} Disconnect ediliyor.");
@@ -104,6 +110,7 @@ public class ConnectionSocket : MonoBehaviour
 
     void Update()
     {
+        if(isDead) return;
         if (!canAutoConnect) return;
         if (manager == null) return;
         if (IsConnected) return;
@@ -127,13 +134,16 @@ public class ConnectionSocket : MonoBehaviour
             if (hit.collider == null || myColliders.Contains(hit.collider)) continue;
 
             ConnectionSocket targetSocket = hit.collider.GetComponentInParent<ConnectionSocket>();
-            if (targetSocket == null || targetSocket.IsConnected) continue;
+            if (targetSocket == null || targetSocket.IsConnected || targetSocket.isDead) continue;
 
             if (targetSocket.manager == manager)
             {
                 Debug.Log($"{transform.root.name}, {transform.name} ile {targetSocket.name} Kendi kendine bağlanmaya çalışıyor, atlanıyor.");
                 continue;
             }
+
+            if (manager.connectedBodies.Contains(targetSocket.manager)) continue; // zaten baglıysak baglanma bize
+
             Connect(targetSocket);
             break;
         }
