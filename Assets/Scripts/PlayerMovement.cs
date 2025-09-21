@@ -1,4 +1,5 @@
-using System;
+﻿using System;
+using System.Linq;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -26,11 +27,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isJumping = false;
     private ConnectionManager cm;
-    private void Awake()
-    {
-        cm = GetComponent<ConnectionManager>();
-        //cm.OnConnectionCountChanged += UpgradeStats;
-    }
+    private void Awake() => cm = GetComponent<ConnectionManager>();
 
     private void Update()
     {
@@ -39,6 +36,10 @@ public class PlayerMovement : MonoBehaviour
     public void DieAnimation()
     {
         baseRb.AddForce(Vector2.up * 70, ForceMode2D.Impulse);
+    }
+    public void AddJumpForce(int amount)
+    {
+        baseRb.AddForce(Vector2.up * amount, ForceMode2D.Impulse);
     }
     private void HandleMovement()
     {
@@ -57,7 +58,12 @@ public class PlayerMovement : MonoBehaviour
 
         baseRb.AddForce(inputVector * moveForce, ForceMode2D.Force);
     }
-    private bool IsGrounded() => Physics2D.OverlapCircle(baseRb.transform.position + Vector3.up * groundCheckOffset, groundCheckRadius, groundLayer);
+    private bool IsGrounded()
+    {
+        var colliderArray = Physics2D.OverlapCircleAll((Vector2)baseRb.transform.position + Vector2.up * groundCheckOffset, groundCheckRadius, groundLayer);
+
+        return colliderArray.Any(c => !cm.boneColliders.Contains(c));
+    }
     private void UpgradeStats(int connectedBodyAmount)
     {
         moveForce =  Mathf.Clamp(moveForce * connectedBodyAmount * moveMultiplier, moveForceClamp.x, moveForceClamp.y);
@@ -66,6 +72,6 @@ public class PlayerMovement : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(baseRb.transform.position + Vector3.up * groundCheckOffset, groundCheckRadius);
+        Gizmos.DrawWireSphere((Vector2)baseRb.transform.position + Vector2.up * groundCheckOffset, groundCheckRadius);
     }
 }

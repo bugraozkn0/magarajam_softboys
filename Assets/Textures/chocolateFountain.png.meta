@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: e3a93149f05e4aa4993c53a4f029e8ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1280564080621679244
+    second: chocolateFountain_0
+  - first:
+      213: -7823194924556392651
+    second: chocolateFountain_1
+  - first:
+      213: 2723974044112237739
+    second: chocolateFountain_2
+  - first:
+      213: -1730929314024220450
+    second: chocolateFountain_3
+  - first:
+      213: -6059068365409578159
+    second: chocolateFountain_4
+  - first:
+      213: -1812770791401896773
+    second: chocolateFountain_5
+  - first:
+      213: -8327837309095132022
+    second: chocolateFountain_6
+  - first:
+      213: -3368544399191294926
+    second: chocolateFountain_7
+  - first:
+      213: 7098178793938577714
+    second: chocolateFountain_8
+  - first:
+      213: 2794846305750474049
+    second: chocolateFountain_9
+  - first:
+      213: -9122335031470469462
+    second: chocolateFountain_10
+  - first:
+      213: -8910023958427026497
+    second: chocolateFountain_11
+  - first:
+      213: -186305793378799114
+    second: chocolateFountain_12
+  - first:
+      213: 1663784410430229448
+    second: chocolateFountain_13
+  - first:
+      213: -5979782398683529091
+    second: chocolateFountain_14
+  - first:
+      213: -4608691005007508229
+    second: chocolateFountain_15
+  - first:
+      213: 5002543826933789166
+    second: chocolateFountain_16
+  - first:
+      213: -6830577320867181893
+    second: chocolateFountain_17
+  - first:
+      213: -334120112855367543
+    second: chocolateFountain_18
+  - first:
+      213: 2540555216003100035
+    second: chocolateFountain_19
+  - first:
+      213: -8753713486434264547
+    second: chocolateFountain_20
+  - first:
+      213: 7955221423229394441
+    second: chocolateFountain_21
+  - first:
+      213: -660543019602219359
+    second: chocolateFountain_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chocolateFountain_0
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 2061
+        width: 460
+        height: 1440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8274912f3a75c110800000000000000
+      internalID: 1280564080621679244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocolateFountain_1
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 2061
+        width: 460
+        height: 1440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5376d294aad6e6390800000000000000
+      internalID: -7823194924556392651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocolateFountain_2
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 2061
+        width: 460
+        height: 1440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4b1bcf5ff7dc520800000000000000
+      internalID: 2723974044112237739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chocolateFountain_3
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 2061
+        width: 460
+        height: 1440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed89642b5f08af7e0800000000000000
+      internalID: -1730929314024220450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e2543a0d818b12740aff3b9cee3002fd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chocolateFountain_0: 1280564080621679244
+      chocolateFountain_1: -7823194924556392651
+      chocolateFountain_10: -9122335031470469462
+      chocolateFountain_11: -8910023958427026497
+      chocolateFountain_12: -186305793378799114
+      chocolateFountain_13: 1663784410430229448
+      chocolateFountain_14: -5979782398683529091
+      chocolateFountain_15: -4608691005007508229
+      chocolateFountain_16: 5002543826933789166
+      chocolateFountain_17: -6830577320867181893
+      chocolateFountain_18: -334120112855367543
+      chocolateFountain_19: -1800686719
+      chocolateFountain_2: 2723974044112237739
+      chocolateFountain_3: -1730929314024220450
+      chocolateFountain_4: -6059068365409578159
+      chocolateFountain_5: -1812770791401896773
+      chocolateFountain_6: -8327837309095132022
+      chocolateFountain_7: -3368544399191294926
+      chocolateFountain_8: 7098178793938577714
+      chocolateFountain_9: 2794846305750474049
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

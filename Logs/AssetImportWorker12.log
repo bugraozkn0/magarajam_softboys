@@ -1,0 +1,389 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.55f1 (c5f59906196d) revision 12973465'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 15654 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-09-21T11:50:52Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.55f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker12
+-projectPath
+C:/UnityProjects/SoftBoys
+-logFile
+Logs/AssetImportWorker12.log
+-srvPort
+56023
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/UnityProjects/SoftBoys
+C:/UnityProjects/SoftBoys
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [996]  Target information:
+
+Player connection [996]  * "[IP] 10.49.1.208 [Port] 0 [Flags] 2 [Guid] 1657064878 [EditorId] 1657064878 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-MI71F4O) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [996] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [996] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.55f1 (c5f59906196d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UnityProjects/SoftBoys/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.8129
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.002773 seconds.
+- Loaded All Assemblies, in  0.293 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.277 seconds
+Domain Reload Profiling: 570ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (125ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (111ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (278ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (240ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.618 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.647 seconds
+Domain Reload Profiling: 1261ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (404ms)
+		LoadAssemblies (255ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (147ms)
+			BuildScriptInfoCaches (50ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (647ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (525ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (319ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7286 unused Assets / (6.2 MB). Loaded Objects now: 7978.
+Memory consumption went from 150.6 MB to 144.4 MB.
+Total: 7.562200 ms (FindLiveObjects: 0.678000 ms CreateObjectMapping: 0.235400 ms MarkObjects: 3.699500 ms  DeleteObjects: 2.948400 ms)
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.612 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.585 seconds
+Domain Reload Profiling: 1199ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (372ms)
+		LoadAssemblies (269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (161ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (586ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (458ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (303ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7284 unused Assets / (6.6 MB). Loaded Objects now: 7981.
+Memory consumption went from 151.3 MB to 144.7 MB.
+Total: 9.040500 ms (FindLiveObjects: 0.764100 ms CreateObjectMapping: 0.396000 ms MarkObjects: 4.538800 ms  DeleteObjects: 3.340400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 440442.849141 seconds.
+  path: Assets/IMPORTED/Assets/Sprites/selale/ChatGPT Image Sep 20, 2025, 05_54_54 PM.png
+  artifactKey: Guid(8df9bf4fcb8f58e4c955ce22c1a8ff19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMPORTED/Assets/Sprites/selale/ChatGPT Image Sep 20, 2025, 05_54_54 PM.png using Guid(8df9bf4fcb8f58e4c955ce22c1a8ff19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0fc3748d80ef982980fdc0b934d5008') in 0.1177687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 586.673372 seconds.
+  path: Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_shallow_slope_middle_left.png
+  artifactKey: Guid(40ffbe35edd2d6a42942aba5e1fb27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_shallow_slope_middle_left.png using Guid(40ffbe35edd2d6a42942aba5e1fb27cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5515a80c1efbb61fce85da468f7db88') in 0.0315541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_shallow_slope_middle_right.png
+  artifactKey: Guid(31141b3d32f2791439a395edc023b1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_shallow_slope_middle_right.png using Guid(31141b3d32f2791439a395edc023b1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35a6fcf1bf493d7f516929eb1205964c') in 0.0224415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_top_version_4.png
+  artifactKey: Guid(a470a8eb77c6de94ca95ce323e61f546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_top_version_4.png using Guid(a470a8eb77c6de94ca95ce323e61f546) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b961cb91f15e1900268015c4402cb58d') in 0.0248269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IMPORTED/Assets/Sprites/Icepops--194k306j9x9i6u9b9h/pngs/border/creamsoda.png
+  artifactKey: Guid(bf9c4c56370ae154d9469b73833b03f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMPORTED/Assets/Sprites/Icepops--194k306j9x9i6u9b9h/pngs/border/creamsoda.png using Guid(bf9c4c56370ae154d9469b73833b03f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '009cbaee95d84b651dde9ab1aebeb57c') in 0.0173567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_steep_slope_end_right.png
+  artifactKey: Guid(428692a5d484f9344af9a3c00db146c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_steep_slope_end_right.png using Guid(428692a5d484f9344af9a3c00db146c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99126821f50ff9b80590e333632f7e91') in 0.0284735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_top_version_3.png
+  artifactKey: Guid(dfc7742647081cb4d8233240bbabeeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_top_version_3.png using Guid(dfc7742647081cb4d8233240bbabeeb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27f4e6b701742fc68f63a9b920d244f6') in 0.0256949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_top_right_outer.png
+  artifactKey: Guid(0ab843b4c2709324482d3f3c618dcb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_top_right_outer.png using Guid(0ab843b4c2709324482d3f3c618dcb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdf89e7037b6abde795e0a992246fd81') in 0.0269531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IMPORTED/Assets/Sprites/cupcakesgameassets--1q4z437s4a2s31742d/pngs/dark.png
+  artifactKey: Guid(32c573965e2711c47beb1c8bc418cb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMPORTED/Assets/Sprites/cupcakesgameassets--1q4z437s4a2s31742d/pngs/dark.png using Guid(32c573965e2711c47beb1c8bc418cb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '166af4e4f3174a56d3ad70492d10ccd9') in 0.0238394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_shallow_slope_start_left.png
+  artifactKey: Guid(66005dc1c19194b458e4e96c0a6d8554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_shallow_slope_start_left.png using Guid(66005dc1c19194b458e4e96c0a6d8554) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e88d7eacfd3f1d984a619ccbdf371f8e') in 0.0237081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_single_pillar_base.png
+  artifactKey: Guid(3bc6ab0aadf98cb49a8fa44def54afed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_single_pillar_base.png using Guid(3bc6ab0aadf98cb49a8fa44def54afed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54b5a3cccd0c7db53c4a94dae8bc67a3') in 0.0156159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/IMPORTED/Assets/Sprites/cupcakesgameassets--1q4z437s4a2s31742d/pngs/cold-blue.png
+  artifactKey: Guid(b28b483d83283e8419929132567c598b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMPORTED/Assets/Sprites/cupcakesgameassets--1q4z437s4a2s31742d/pngs/cold-blue.png using Guid(b28b483d83283e8419929132567c598b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7a5b636ae07d88287fb3a28a7c2d5e2') in 0.0179606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_shallow_slope_start_right.png
+  artifactKey: Guid(5c24efeaae74b47419a6d0ead3b4bdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_shallow_slope_start_right.png using Guid(5c24efeaae74b47419a6d0ead3b4bdff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dd56bf8c41df4cf43e50b05ff756fdb') in 0.0271791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_steep_slope_start_left.png
+  artifactKey: Guid(69d16e48e0a8270478ac8f3999a7812a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/chocolate_ice_cream_tile_steep_slope_start_left.png using Guid(69d16e48e0a8270478ac8f3999a7812a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7409ae198b529ee9fa11c91481fed035') in 0.0170458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/fill.png
+  artifactKey: Guid(d4e5682bca758484a941513d5805e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/chocolate_tiles/fill.png using Guid(d4e5682bca758484a941513d5805e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc06213cd59ce0218e16d8e44f0b4bf0') in 0.0175609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/mint_choc_tiles/fill.png
+  artifactKey: Guid(691c348bd63978541b944ab572a4d84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IMPORTED/Assets/Sprites/Icecreamtiles--1r4v8v6o1g5e3n5w3h/pngs/mint_choc_tiles/fill.png using Guid(691c348bd63978541b944ab572a4d84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ea67c5cc5880b4b91e2887630f12bd8') in 0.0165212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

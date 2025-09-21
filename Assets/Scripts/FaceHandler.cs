@@ -4,9 +4,23 @@ public class FaceHandler : MonoBehaviour
 {
     [SerializeField] List<Face> faces = new();
     [SerializeField] SpriteRenderer sRenderer;
+    [SerializeField] bool isMainPlayer;
+
+    private bool isActive = false;
+    private void Start()
+    {
+        if (!isMainPlayer)
+            sRenderer.enabled = false;
+    }
 
     public void ChangeFace(FaceType type)
     {
+        if (!isActive)
+        {
+            sRenderer.enabled = true;
+            isActive = true;
+            return;
+        }
         sRenderer.sprite = faces.Find(x => x.facetype == type).sprite;
     }
     [ContextMenu("Random Face")]
